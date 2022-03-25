@@ -1,19 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
 .about
 {
-    background-color: green;
+    background-color: #9ed8db;
     height: 500px;
 }
 
 .portfolio
 {
-    background-color: red;
+    background-color: #467599;
     height: 500px;
 
 }
 
 .contact
 {
-    background-color: purple;
-    height: 500px;
+    background-color: #e9fff9;
+    height: 300px;
 
+}
+
+.navbar
+{
+    background-color: #d64045;
+    font-family: sans-serif;
 }
