@@ -23,33 +23,6 @@ a:visited {
 
 }
 
-.about
-{
-    background-color: #9ed8db;
-    height: 500px;
-}
-
-.portfolio
-{
-    background-color: #467599;
-    height: 500px;
-
-}
-
-.contact
-{
-    background-color: #e9fff9;
-    height: 100px;
-    padding: 20px;
-
-}
-
-.navbar
-{
-    /*background-color: #d64045;*/
-    font-family: sans-serif;
-}
-
 .mainheader {
     display: flex;
     justify-content: space-between;
@@ -57,6 +30,63 @@ a:visited {
     background-color: #e9fff9;
 }
 
-.welcome {
-   /* background-color: #e9fff9;*/
+.navbar
+{
+    font-family: sans-serif;
+}
+
+nav a:link {
+      margin-right: 30px;   
+}
+  
+nav a:link:last-child {
+    margin-right: 50px;
+}
+  
+.about
+{
+    display: flex;
+    background-color: #9ed8db;
+    height: 500px;
+}
+
+.el-about {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: #467599
+}
+
+.portfolio
+{
+    display: flex;
+    background-color: #467599;
+    height: 500px;
+
+}
+
+.el-portfolio {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: #9ed8db
+}
+
+ul {
+    list-style: none;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.contact
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #e9fff9;
+    height: 100px;
+    padding: 20px;
+
 }
