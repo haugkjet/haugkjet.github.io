@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+h1,h2,h3 {
   font-family: sans-serif;
   font-weight: bolder;
   color: black;
@@ -46,6 +46,17 @@ a:visited {
 
 .navbar
 {
-    background-color: #d64045;
+    /*background-color: #d64045;*/
     font-family: sans-serif;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9fff9;
+}
+
+.welcome {
+   /* background-color: #e9fff9;*/
 }
