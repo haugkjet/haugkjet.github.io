@@ -4,23 +4,22 @@
     box-sizing: border-box;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4,h5 {
   font-family: sans-serif;
   font-weight: bolder;
-  color: black;
+  color: #505050;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: #505050;
     font-weight: bolder;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: #505050;
     font-weight: bolder;
-
 }
 
 .mainheader {
@@ -28,7 +27,7 @@ a:visited {
     height: 50px;
     justify-content: space-between;
     align-items: center;
-    background-color: #e9fff9;
+    background-color: #54BAB9;
 }
 
 .navbar
@@ -47,38 +46,40 @@ nav a:link:last-child {
 .about
 {
     display: flex;
-    background-color: #9ed8db;
-    height: 500px;
+    background-color: #F7ECDE;
+    height: 400px;
 }
 
 .el-about {
     margin-top: 50px;
     margin-left: 50px;
-    height: 400px;
-    width: 400px;
-    background-color: #467599
+    height: 300px;
+    width: 300px;
+    background-color:  #E9DAC1;
+    border-radius: 5px;
+    box-shadow: 1000px;
 }
 
 .portfolio
 {
     display: flex;
-    background-color: #467599;
-    height: 500px;
-
+    background-color:  #E9DAC1;
+    height: 400px;
 }
 
 .el-portfolio {
     margin-top: 50px;
     margin-left: 50px;
-    height: 400px;
-    width: 400px;
-    background-color: #9ed8db
+    height: 300px;
+    width: 300px;
+    background-color: #F7ECDE;
+    border-radius: 5px;
 }
 
 ul {
-    list-style: none;
+    /*list-style: none; */
     font-family: sans-serif;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .contact
@@ -86,8 +87,24 @@ ul {
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #e9fff9;
+    background-color: #54BAB9;
     height: 100px;
     padding: 20px;
+}
 
+.skill {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#about {
+    margin-left: 10px;
+}
+
+#portfolio {
+    margin-left: 10px;
+}
+
+.welcome {
+    margin-left: 10px;
 }
