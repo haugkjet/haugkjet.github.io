@@ -47,7 +47,6 @@ nav a:link:last-child {
 #about {
     background: rgb(202,222,239);
     background: linear-gradient(45deg, rgba(202,222,239,1) 0%, rgba(255,255,255,1) 100%);
-    margin-left: 0;
     padding-left: 10px;
     
 }
@@ -61,11 +60,10 @@ nav a:link:last-child {
 }
 
 .el-about {
-    flex-basis: 300px;
-    margin-top: 50px;
-    margin-left: 50px;
+    flex-basis: 200px;
+    margin-top: 5px;
+    margin-left:auto;
     height: 300px;
-    width: 300px;
     background-color:  #fafafa;
     border-radius: 5px;
     /*box-shadow: 1px 1px 5px #505050*/
@@ -88,11 +86,11 @@ nav a:link:last-child {
 }
 
 .el-portfolio {
-    flex-basis: 300px;
-    margin-top: 50px;
-    margin-left: 50px;
+    flex-basis: 200px;
+    margin-top: 5px;
+    margin-left:auto;
+    
     height: 300px;
-    width: 300px;
     background-color: #fafafa;
     border-radius: 5px;
     /*box-shadow: 1px 0px 3px #505050*/
