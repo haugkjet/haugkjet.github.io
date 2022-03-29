@@ -43,7 +43,15 @@ nav a:link {
 nav a:link:last-child {
     margin-right: 50px;
 }
-  
+
+#about {
+    background: rgb(202,222,239);
+    background: linear-gradient(45deg, rgba(202,222,239,1) 0%, rgba(255,255,255,1) 100%);
+    margin-left: 0;
+    padding-left: 10px;
+    
+}
+
 .about
 {
     display: flex;
@@ -57,11 +65,18 @@ nav a:link:last-child {
     margin-left: 50px;
     height: 300px;
     width: 300px;
-    background-color:  #ececec;
+    background-color:  #fafafa;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #505050
+    /*box-shadow: 1px 1px 5px #505050*/
     
 }
+
+#portfolio {
+    background: rgb(202,222,239);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(202,222,239,1) 100%);   
+    padding-left: 10px; 
+}
+
 
 .portfolio
 {
@@ -76,9 +91,9 @@ nav a:link:last-child {
     margin-left: 50px;
     height: 300px;
     width: 300px;
-    background-color: #ececec;
+    background-color: #fafafa;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #505050
+    /*box-shadow: 1px 0px 3px #505050*/
 }
 
 ul {
@@ -101,14 +116,6 @@ ul {
 .skill {
     margin-left: 20px;
     margin-bottom: 5px;
-}
-
-#about {
-    margin-left: 10px;
-}
-
-#portfolio {
-    margin-left: 10px;
 }
 
 .welcome {
