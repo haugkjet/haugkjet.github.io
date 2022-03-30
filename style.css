@@ -48,7 +48,6 @@ nav a:link:last-child {
     background: rgb(202,222,239);
     background: linear-gradient(45deg, rgba(202,222,239,1) 0%, rgba(255,255,255,1) 100%);
     padding-left: 10px;
-    
 }
 
 .about
@@ -68,7 +67,6 @@ nav a:link:last-child {
     background-color:  #fafafa;
     border-radius: 5px;
     /*box-shadow: 1px 1px 5px #505050*/
-    
 }
 
 #portfolio {
@@ -76,7 +74,6 @@ nav a:link:last-child {
     background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(202,222,239,1) 100%);   
     padding-left: 10px; 
 }
-
 
 .portfolio
 {
