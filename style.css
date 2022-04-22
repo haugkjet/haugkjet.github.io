@@ -13,18 +13,18 @@ a,
 p {
   font-family: sans-serif;
   font-weight: bolder;
-  color: #9a9ce7;
+  color: #cccdf3;
 }
 
 a:link {
   text-decoration: none;
-  color: #9a9ce7;
+  color: #cccdf3;
   font-weight: bolder;
 }
 
 a:visited {
   text-decoration: none;
-  color: #9a9ce7;
+  color: #cccdf3;
   font-weight: bolder;
 }
 
@@ -66,7 +66,7 @@ nav a:link:last-child {
   margin-right: auto;
   height: 250px;
   background-color: #2f303a;
-  border-radius: 5px;
+  border-radius: 2px;
   /*box-shadow: 1px 1px 5px #505050*/
 }
 
@@ -90,7 +90,7 @@ nav a:link:last-child {
 
   height: 250px;
   background-color: #2f303a;
-  border-radius: 5px;
+  border-radius: 2px;
   /*box-shadow: 1px 0px 3px #505050*/
 }
 
