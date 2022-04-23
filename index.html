@@ -8,7 +8,7 @@
     <title>Welcome</title>
 </head>
 <body>
-    <header class = "mainheader">
+    <!--<header class = "mainheader">
         <h2 class="welcome">Welcome</h2>
         <nav class="navbar">  
             <a href="#about">About</a>
@@ -16,7 +16,26 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>    
         </nav>
-    </header>
+    </header>!-->
+    <div class="header">
+        <div class="navbar">
+            <div class="nav-logo">
+                <h1>Welcome</h1>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="https://blog-theta-umber.vercel.app//">Blog</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
     <section>
         <h2 id="about"></h2>
         <div class="about">         
@@ -58,24 +77,25 @@
         </div>
     </div>
     </section>
-    </section>
+  
     <section>
         <h2 id="portfolio"></h2>  
         <div class="portfolio">  
             <div class="el-portfolio">
-                <a href="http://www.utbytteinfo.com">Utbytteinfo.com</a>                            
-                    <a href="http://utbytteinfo.com"><img src="./images/utbytteinfo_small.png" alt="Utbytteinfo" style="width:250px;height:auto;margin-right: 20px;align-items:center;max-width:100%"></a>
-                    <p>Lists dividends</p>
-                    <p>Using LAMP stack</p>
-                    <p>From 2013</p>               
+                <ul>
+                <li><a href="http://www.utbytteinfo.com">Utbytteinfo.com</a></li>                            
+                <li><h5>Lists dividends</h5></li>
+                <li><h5>LAMP stack<h5></li>
+                <li><h5>From 2013</h5></li>
+                </ul>               
             </div>
             <div class="el-portfolio">
                 <a href="https://haugkjet.github.io/financial-dashboard/public">Financial dashboard</a> 
-                <p> (Under construction) </p>         
+                <h5> (Under construction) </h5>         
             </div>
             <div class="el-portfolio">
                 <a href="https://personal-portfolio-haugkjet.vercel.app/">Personal portfolio</a> 
-                <p>(Under construction) </p>         
+                <h5> (Under construction) </h5>         
             </div>  
             <!-- TODO add section for codewars progress !-->
             <!--  http://www.codewars.com/api/v1/users/haugkjet/code-challenges/completed?page=0 !-->
@@ -88,5 +108,24 @@
         <a href="https://gitlab.com/haugkjet"><img src="./images/gitlab-icon-1-color-black-rgb.png" alt="Gitlab" style="width:60px;height:60px;margin-right: 20px;"></a>
         <a href="https://twitter.com/haugkjet"><img src="./images/2021 Twitter logo - black.png" alt="Twitter" style="width:60px;height:60px;;margin-right: 20px"></a>        
     </section>
+
+    <script>
+        // Thanks to code commerce
+    
+        // select hamburger
+        const hamburger = document.querySelector('.hamburger')
+        // select nav-menu
+        const navMenu = document.querySelector('.nav-menu')
+        // add event listener
+        hamburger.addEventListener('click', mobileMenu)
+        // navmenu function
+            //toggle active
+            //toggle active
+        function mobileMenu() {
+            hamburger.classList.toggle('active')
+            navMenu.classList.toggle('active')
+        }
+
+    </script>
 </body>
 </html>
