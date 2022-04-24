@@ -40,8 +40,9 @@
     <section>
         <h2 id="about"></h2>
         <div class="about">         
-        <div class="el-about"><h3 class="skill">Knows</h3>
+        <div class="el-about">
             <ul>
+                <li><h3 class="skill">Knows:</h3></li>
                 <li><h4>Html</h4></li>
                 <li><h4>CSS</h4></li>
                 <li><h4>(C)</h4></li>
@@ -51,9 +52,9 @@
                 <li><h4>(Some AWS)</h4></li>
             </ul>
         </div>
-        <div class="el-about"><h3 class="skill">Learning</h3>
+        <div class="el-about">
             <ul>
-                
+                <li><h3 class="skill">Learning:</h3></li>            
                 <li><h4>TailwindCSS</h4></li>
                 <li><h4>Bootstrap</h4></li>
                 <li><h4>Javascript</h4></li>
@@ -66,14 +67,14 @@
                 <li><h4>Prisma</h4></li>
             </ul>
         </div>
-        <div class="el-about"><h3 class="skill">Want to learn</h3>
+        <div class="el-about">
             <ul>
+                <li><h3 class="skill">Will learn:</h3></li>
                 <li><h4>Rust</h4></li>
                 <li><h4>Webassembly</h4></li>                
                 <li><h4>Web3 stack</h4></li>
                 <li><h4>Three.js</h4></li>
                 <li><h4>Jest.js</h4></li>
-
             </ul>
         </div>
     </div>
@@ -83,20 +84,26 @@
         <h2 id="portfolio"></h2>  
         <div class="portfolio">  
             <div class="el-portfolio">
-                <ul>
-                <li><a href="http://www.utbytteinfo.com">Utbytteinfo.com</a></li>                            
-                <li><h5>Lists dividends</h5></li>
-                <li><h5>LAMP stack<h5></li>
-                <li><h5>From 2013</h5></li>
-                </ul>               
+                
+                <div class="skill"><a href="http://www.utbytteinfo.com">Utbytteinfo.com</a></div>    
+                <ul>                        
+                    <h5>Lists dividends</h5>
+                    <h5>LAMP stack<h5>
+                    <h5>From 2013</h5>
+                </ul>           
             </div>
             <div class="el-portfolio">
-                <a href="https://haugkjet.github.io/financial-dashboard/public">Financial dashboard</a> 
-                <h5> (Under construction) </h5>         
+               <div class="skill"> <a href="https://haugkjet.github.io/financial-dashboard/public">Dashboard</a></div> 
+               <ul>                        
+                <h5> (Under construction) </h5>
+               </ul>         
             </div>
             <div class="el-portfolio">
-                <a href="https://personal-portfolio-haugkjet.vercel.app/">Personal portfolio</a> 
-                <h5> (Under construction) </h5>         
+                <div class="skill"><a href="https://personal-portfolio-haugkjet.vercel.app/">Portfolio view</a> </div> 
+                <ul>                        
+
+                    <h5> (Under construction) </h5>
+                   </ul>        
             </div>  
             <!-- TODO add section for codewars progress !-->
             <!--  http://www.codewars.com/api/v1/users/haugkjet/code-challenges/completed?page=0 !-->
@@ -113,7 +120,6 @@
  
     <script>
         // Thanks to code commerce
-    
         // select hamburger
         const hamburger = document.querySelector('.hamburger')
         // select nav-menu

@@ -75,13 +75,17 @@ h5 {
   margin-right: auto;
   height: 250px;
   background-color: #2f303a;
-  border-radius: 2px;
-  /*box-shadow: 1px 1px 5px #505050*/
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px #57504d;
+}
+
+.skill {
+  font-size: large;
+  padding-bottom: 10px;
 }
 
 #portfolio {
   background: #201d1d;
-
   padding-left: 10px;
 }
 
@@ -99,8 +103,8 @@ h5 {
 
   height: 250px;
   background-color: #2f303a;
-  border-radius: 2px;
-  /*box-shadow: 1px 0px 3px #505050*/
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px #57504d;
 }
 
 ul {
