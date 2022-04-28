@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,7 +11,7 @@ ul {
   list-style-type: none;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a,
@@ -74,14 +75,15 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   height: 250px;
-  background-color: #2f303a;
-  border-radius: 1px;
+  background-color: #574185;
+  border-radius: 15px;
   box-shadow: 1px 1px 1px #57504d;
 }
 
 .skill {
   font-size: large;
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 #portfolio {
@@ -102,8 +104,8 @@ h5 {
   margin-right: auto;
 
   height: 250px;
-  background-color: #2f303a;
-  border-radius: 1px;
+  background-color: #416f85;
+  border-radius: 15px;
   box-shadow: 1px 1px 1px #57504d;
 }
 
@@ -116,7 +118,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #2f303a;
+  background: #352852;
 
   height: 100px;
   padding: 20px;
