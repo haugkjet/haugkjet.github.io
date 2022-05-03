@@ -22,31 +22,30 @@ function ContentArea() {
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">NextJS</h3>
             </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">NodeJS</h3>
+            </li>
           </ul>
         </div>
         <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6">
-                Learning:
+                Will learn:
               </h1>
             </li>
             <li>
+              <h3 className="text-black dark:text-white text-l ml-6">Rust</h3>
+            </li>
+            <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                TailwindCSS
+                Webassembly
               </h3>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">React</h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">NextJS</h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">React</h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">NextJS</h3>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Web3/Defi
+              </h3>
             </li>
           </ul>
         </div>
@@ -54,24 +53,69 @@ function ContentArea() {
       <h1 className="text-black dark:text-white text-xl ml-2">Portfolio</h1>
       <div className="lg:flex md:flex">
         <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-indigo-500 dark:bg-slate-800 border-2 border-cyan-500 m-2">
-          <h1 className="text-black dark:text-white text-l ml-6">Card</h1>
+          <div class="skill">
+            <a
+              className="text-black dark:text-white text-l ml-6"
+              href="http://www.utbytteinfo.com"
+            >
+              Utbytteinfo.com
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Lists dividends
+              </h3>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                LAMP stack
+              </h3>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                From 2013
+              </h3>
+            </li>
+          </ul>
         </div>
         <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
-          <p className="text-black dark:text-white text-l ml-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-          </p>
+          <div class="skill">
+            <a
+              className="text-black dark:text-white text-l ml-6"
+              href="https://personal-portfolio-haugkjet.vercel.app/"
+            >
+              Personal financial portfolio
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                (Under Construction)
+              </h3>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="lg:flex md:flex">
         <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
-          <h1 className="text-black dark:text-white text-l ml-6">Card3</h1>
+          <div class="skill">
+            <a
+              className="text-black dark:text-white text-l ml-6"
+              href="https://haugkjet.github.io/financial-dashboard/public"
+            >
+              Dashboard
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                (Under construction)
+              </h3>
+            </li>
+          </ul>{" "}
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
-          <h1 className="text-black dark:text-white text-l ml-6">Card4</h1>
-        </div>
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2"></div>
       </div>
     </main>
   );
