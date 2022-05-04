@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/haugkjet.github.io/static/css/main.04fdc07d.css",
-    "main.js": "/haugkjet.github.io/static/js/main.ce212baa.js",
-    "index.html": "/haugkjet.github.io/index.html",
-    "main.04fdc07d.css.map": "/haugkjet.github.io/static/css/main.04fdc07d.css.map",
-    "main.ce212baa.js.map": "/haugkjet.github.io/static/js/main.ce212baa.js.map"
+    "main.css": "/static/css/main.04fdc07d.css",
+    "main.js": "/static/js/main.ce212baa.js",
+    "index.html": "/index.html",
+    "main.04fdc07d.css.map": "/static/css/main.04fdc07d.css.map",
+    "main.ce212baa.js.map": "/static/js/main.ce212baa.js.map"
   },
   "entrypoints": [
     "static/css/main.04fdc07d.css",
