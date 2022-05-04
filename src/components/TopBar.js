@@ -13,8 +13,8 @@ function TopBar() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-slate-100 dark:bg-black p-6 w-auto">
-      <div className="flex items-center flex-shrink-0 text-black dark:text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-slate-100 dark:bg-black border-b border-blue-300 dark:border-gray-700 p-6 w-auto ">
+      <div className="flex items-center flex-shrink-0 text-black dark:text-white  mr-6">
         <span className="font-semibold text-3xl">Welcome</span>
       </div>
       <div className="flex">

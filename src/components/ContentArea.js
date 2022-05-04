@@ -2,7 +2,7 @@ function ContentArea() {
   return (
     <main className="flex-grow bg-slate-200 dark:bg-black">
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 md:w-1/2 lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 md:w-1/2 lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
@@ -25,7 +25,7 @@ function ContentArea() {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800  shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
@@ -50,7 +50,7 @@ function ContentArea() {
       </div>
       <h1 className="text-black dark:text-white text-xl ml-6">Portfolio</h1>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <div class="skill">
             <a
               className="text-black dark:text-white text-l ml-6 font-bold"
@@ -77,7 +77,7 @@ function ContentArea() {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <div class="skill">
             <a
               className="text-black dark:text-white text-l ml-6 font-bold"
@@ -96,7 +96,7 @@ function ContentArea() {
         </div>
       </div>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <div class="skill">
             <a
               className="text-black dark:text-white text-l ml-6 font-bold"
@@ -113,7 +113,7 @@ function ContentArea() {
             </li>
           </ul>{" "}
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2"></div>
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2"></div>
       </div>
     </main>
   );
