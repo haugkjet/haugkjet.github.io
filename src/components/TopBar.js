@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import useLocalStorage from "use-local-storage";
 
@@ -22,16 +21,10 @@ function TopBar() {
         <div className="flex items-center flex-shrink-0  text-black dark:text-white mr-16">
           <a
             className="font-semibold text-base"
-            href="https://www.w3schools.com"
+            href="https://blog-haugkjet.vercel.app/"
           >
-            Portfolio
+            Blog
           </a>
-        </div>
-        <div className="flex items-center flex-shrink-0  text-black dark:text-white mr-16">
-          <span className="font-semibold text-base">Blog</span>
-        </div>
-        <div className="flex items-center flex-shrink-0  text-black dark:text-white mr-16">
-          <span className="font-semibold text-base">Contact</span>
         </div>
         <div className="flex items-center flex-shrink-0  text-black dark:text-white mr-16">
           <MdDarkMode onClick={switchTheme}></MdDarkMode>

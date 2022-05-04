@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 function ContentArea() {
   return (
     <main className="flex-grow bg-slate-200 dark:bg-black">
