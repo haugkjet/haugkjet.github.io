@@ -4,10 +4,10 @@ function ContentArea() {
   return (
     <main className="flex-grow bg-slate-200 dark:bg-black">
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 md:w-1/2 lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 md:w-1/2 lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <ul>
             <li>
-              <h1 className="text-black dark:text-white text-xl ml-6">
+              <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
                 Learning:
               </h1>
             </li>
@@ -27,10 +27,10 @@ function ContentArea() {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <ul>
             <li>
-              <h1 className="text-black dark:text-white text-xl ml-6">
+              <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
                 Will learn:
               </h1>
             </li>
@@ -50,12 +50,12 @@ function ContentArea() {
           </ul>
         </div>
       </div>
-      <h1 className="text-black dark:text-white text-xl ml-2">Portfolio</h1>
+      <h1 className="text-black dark:text-white text-xl ml-6">Portfolio</h1>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-indigo-500 dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <div class="skill">
             <a
-              className="text-black dark:text-white text-l ml-6"
+              className="text-black dark:text-white text-l ml-6 font-bold"
               href="http://www.utbytteinfo.com"
             >
               Utbytteinfo.com
@@ -79,10 +79,10 @@ function ContentArea() {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <div class="skill">
             <a
-              className="text-black dark:text-white text-l ml-6"
+              className="text-black dark:text-white text-l ml-6 font-bold"
               href="https://personal-portfolio-haugkjet.vercel.app/"
             >
               Personal financial portfolio
@@ -98,10 +98,10 @@ function ContentArea() {
         </div>
       </div>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2">
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2">
           <div class="skill">
             <a
-              className="text-black dark:text-white text-l ml-6"
+              className="text-black dark:text-white text-l ml-6 font-bold"
               href="https://haugkjet.github.io/financial-dashboard/public"
             >
               Dashboard
@@ -115,7 +115,7 @@ function ContentArea() {
             </li>
           </ul>{" "}
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-slate-300 dark:bg-slate-800 border-2 border-cyan-500 m-2"></div>
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 border-2 border-cyan-500 m-2"></div>
       </div>
     </main>
   );
