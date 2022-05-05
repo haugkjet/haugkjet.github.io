@@ -45,6 +45,9 @@ function ContentArea() {
                 Web3/Defi
               </h3>
             </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">Python</h3>
+            </li>
           </ul>
         </div>
       </div>
