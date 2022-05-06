@@ -8,8 +8,6 @@ function ContentArea() {
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
                 Learning:
               </h1>
-            </li>
-            <li>
               <h3 className="text-black dark:text-white text-l ml-6">
                 TailwindCSS
               </h3>
@@ -29,7 +27,7 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Will learn:
+                Want to learn more about:
               </h1>
             </li>
             <li>
@@ -46,7 +44,14 @@ function ContentArea() {
               </h3>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">Python</h3>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Python/AI/ML
+              </h3>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Vue/Svelte/SolidJS
+              </h3>
             </li>
           </ul>
         </div>
