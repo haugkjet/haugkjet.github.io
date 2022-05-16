@@ -31,11 +31,8 @@ function ContentArea() {
               </h1>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">Rust</h3>
-            </li>
-            <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Webassembly
+                Rust/WA
               </h3>
             </li>
             <li>
