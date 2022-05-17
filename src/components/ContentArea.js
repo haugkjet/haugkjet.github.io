@@ -77,7 +77,7 @@ function ContentArea() {
             </li>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                From 2013
+                From 2012
               </h3>
             </li>
           </ul>
