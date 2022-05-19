@@ -21,7 +21,7 @@ function TopBar() {
         <div className="flex items-center flex-shrink-0  text-black dark:text-white mr-16">
           <a
             className="font-semibold text-base"
-            href="https://blog-haugkjet.vercel.app/"
+            href="https://blog.kjetil.xyz/"
           >
             Blog
           </a>
