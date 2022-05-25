@@ -118,7 +118,23 @@ function ContentArea() {
             </li>
           </ul>{" "}
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2"></div>
+        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <div class="skill">
+            <a
+              className="text-black dark:text-white text-l ml-6 font-bold"
+              href="https://haugkjet.github.io/portfolio-viewer"
+            >
+              3D test
+            </a>
+          </div>
+          <ul>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                (Under construction)
+              </h3>
+            </li>
+          </ul>{" "}
+        </div>
       </div>
     </main>
   );
