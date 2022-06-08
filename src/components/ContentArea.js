@@ -6,7 +6,7 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Learning:
+                Knows:
               </h1>
               <h3 className="text-black dark:text-white text-l ml-6">
                 TailwindCSS
@@ -19,7 +19,9 @@ function ContentArea() {
               <h3 className="text-black dark:text-white text-l ml-6">NextJS</h3>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">NodeJS</h3>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                ThreeJS
+              </h3>
             </li>
           </ul>
         </div>
@@ -27,8 +29,11 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Want to learn more about:
+                Want to learn:
               </h1>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">NodeJS</h3>
             </li>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
