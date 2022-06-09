@@ -6,21 +6,10 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Knows:
+                About me:
               </h1>
               <h3 className="text-black dark:text-white text-l ml-6">
-                TailwindCSS
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">React</h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">NextJS</h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                ThreeJS
+                Exploring Web development, 3D and Finance
               </h3>
             </li>
           </ul>
@@ -29,30 +18,25 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Want to learn:
+                Learning:
               </h1>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">NodeJS</h3>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Three.js
+              </h3>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">Nextjs</h3>
             </li>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Rust/WA
+                Rust/Webassembly
               </h3>
             </li>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Web3/Defi
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                Python/AI/ML
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                Vue/Svelte/SolidJS
+                Blender
               </h3>
             </li>
           </ul>
@@ -91,18 +75,18 @@ function ContentArea() {
           <div class="skill">
             <a
               className="text-black dark:text-white text-l ml-6 font-bold"
-              href="https://personal-portfolio-haugkjet.vercel.app/"
+              href="https://haugkjet.github.io/portfolio-viewer"
             >
-              Personal financial portfolio
+              Three.js test
             </a>
           </div>
           <ul>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                (Under Construction)
+                (Under construction)
               </h3>
             </li>
-          </ul>
+          </ul>{" "}
         </div>
       </div>
       <div className="lg:flex md:flex">
@@ -127,18 +111,18 @@ function ContentArea() {
           <div class="skill">
             <a
               className="text-black dark:text-white text-l ml-6 font-bold"
-              href="https://haugkjet.github.io/portfolio-viewer"
+              href="https://personal-portfolio-haugkjet.vercel.app/"
             >
-              3D test
+              Personal financial portfolio
             </a>
           </div>
           <ul>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                (Under construction)
+                (Under Construction)
               </h3>
             </li>
-          </ul>{" "}
+          </ul>
         </div>
       </div>
     </main>
