@@ -44,85 +44,54 @@ function ContentArea() {
       </div>
       <h1 className="text-black dark:text-white text-xl ml-6">Portfolio</h1>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <div class="skill">
-            <a
-              className="text-black dark:text-white text-l ml-6 font-bold"
-              href="http://www.utbytteinfo.com"
-            >
+        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <a href="http://utbytteinfo.com">
+            <h3 className="text-black dark:text-white text-l ml-6 font-bold">
               Utbytteinfo.com
-            </a>
-          </div>
-          <ul>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                Lists dividends
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                LAMP stack
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                From 2012
-              </h3>
-            </li>
-          </ul>
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              Lists dividends
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              LAMP stack
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              From 2012
+            </h3>
+          </a>
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <div class="skill">
-            <a
-              className="text-black dark:text-white text-l ml-6 font-bold"
-              href="https://haugkjet.github.io/portfolio-viewer"
-            >
+
+        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <a href="https://haugkjet.github.io/portfolio-viewer">
+            <h3 className="text-black dark:text-white text-l ml-6 font-bold">
               Three.js test
-            </a>
-          </div>
-          <ul>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                (Under construction)
-              </h3>
-            </li>
-          </ul>{" "}
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              (Under construction)
+            </h3>
+          </a>
         </div>
       </div>
       <div className="lg:flex md:flex">
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <div class="skill">
-            <a
-              className="text-black dark:text-white text-l ml-6 font-bold"
-              href="https://haugkjet.github.io/financial-dashboard/public"
-            >
+        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <a href="https://haugkjet.github.io/financial-dashboard/public">
+            <h3 className="text-black dark:text-white text-l ml-6 font-bold">
               Dashboard
-            </a>
-          </div>
-          <ul>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                (Under construction)
-              </h3>
-            </li>
-          </ul>{" "}
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              (Under construction)
+            </h3>
+          </a>
         </div>
-        <div className="lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <div class="skill">
-            <a
-              className="text-black dark:text-white text-l ml-6 font-bold"
-              href="https://personal-portfolio-haugkjet.vercel.app/"
-            >
-              Personal financial portfolio
-            </a>
-          </div>
-          <ul>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                (Under Construction)
-              </h3>
-            </li>
-          </ul>
+        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <a href="https://personal-portfolio-haugkjet.vercel.app/">
+            <h3 className="text-black dark:text-white text-l ml-6 font-bold">
+              Personal Finance portfolio
+            </h3>
+            <h3 className="text-black dark:text-white text-l ml-6">
+              (Under construction)
+            </h3>
+          </a>
         </div>
       </div>
     </main>
