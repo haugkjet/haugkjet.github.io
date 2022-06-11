@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex items-center justify-center flex-wrap bg-white dark:bg-black  border-t border-blue-300 dark:border-gray-700 p-6 w-screen">
+    <div className="flex items-center justify-center flex-wrap bg-white dark:bg-black opacity-80 border-t border-blue-300 dark:border-gray-700 p-6 w-screen">
       <div className="flex items-center flex-shrink-0 text-black dark:text-white mr-16">
         <a className="fa fa-github fa-2x" href="https://github.com/haugkjet">
           {" "}

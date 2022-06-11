@@ -1,6 +1,6 @@
 function ContentArea() {
   return (
-    <main className="flex-grow bg-slate-200 dark:bg-black">
+    <main className="flex-grow bg-slate-200 dark:bg-black opacity-90">
       <div className="lg:flex md:flex">
         <div className="lg:w-1/2 md:w-1/2 lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <ul>
