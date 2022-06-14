@@ -9,7 +9,7 @@ function ContentArea() {
                 About me:
               </h1>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Exploring Web development, 3D and Finance
+                Web and graphics development
               </h3>
             </li>
           </ul>
@@ -18,7 +18,7 @@ function ContentArea() {
           <ul>
             <li>
               <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Learning:
+                Tech stack:
               </h1>
             </li>
             <li>
@@ -27,16 +27,18 @@ function ContentArea() {
               </h3>
             </li>
             <li>
-              <h3 className="text-black dark:text-white text-l ml-6">Nextjs</h3>
-            </li>
-            <li>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Rust/Webassembly
+                Next.js
               </h3>
             </li>
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
                 Blender
+              </h3>
+            </li>
+            <li>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Webassembly
               </h3>
             </li>
           </ul>
