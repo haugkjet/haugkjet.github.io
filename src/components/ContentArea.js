@@ -22,9 +22,7 @@ function ContentArea() {
                 Tech stack:
               </h1>
             </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6"></h3>
-            </li>
+
             <li>
               <h3 className="text-black dark:text-white text-l ml-6">
                 Three.js
@@ -45,9 +43,21 @@ function ContentArea() {
             <img
               className="object-fill h-full w-full"
               src="./iceworld.png"
+              alt="Test1"
             ></img>
           </a>
         </div>
+        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <a href="https://haugkjet.github.io/portfolio-viewer">
+            <img
+              className="object-fill h-full w-full"
+              src="./threejschart.png"
+              alt="Test2"
+            ></img>
+          </a>
+        </div>
+      </div>
+      <div className="lg:flex md:flex">
         <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <a href="http://utbytteinfo.com">
             <h3 className="text-black dark:text-white text-l ml-6 font-bold">
@@ -62,16 +72,6 @@ function ContentArea() {
             <h3 className="text-black dark:text-white text-l ml-6">
               From 2012
             </h3>
-          </a>
-        </div>
-      </div>
-      <div className="lg:flex md:flex">
-        <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <a href="https://haugkjet.github.io/financial-dashboard/public">
-            <h3 className="text-black dark:text-white text-l ml-6 font-bold">
-              Dashboard
-            </h3>
-            <h3 className="text-black dark:text-white text-l ml-6">(Test)</h3>
           </a>
         </div>
         <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
