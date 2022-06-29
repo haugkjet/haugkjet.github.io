@@ -15,25 +15,17 @@ function ContentArea() {
             </li>
           </ul>
         </div>
-        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40   bg-white dark:bg-slate-800  shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
-          <ul>
-            <li>
-              <h1 className="text-black dark:text-white text-xl ml-6 font-bold">
-                Tech stack:
-              </h1>
-            </li>
-
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                Three.js
-              </h3>
-            </li>
-            <li>
-              <h3 className="text-black dark:text-white text-l ml-6">
-                Blender
-              </h3>
-            </li>
-          </ul>
+        <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40  flex bg-white dark:bg-slate-800  shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
+          <img
+            className="flex-item  object-contain w-1/3 ml-10"
+            src="./Three.js.png"
+            alt="Test1"
+          ></img>
+          <img
+            className="flex-item  object-contain w-1/3 ml-10"
+            src="./blender.png"
+            alt="Test1"
+          ></img>
         </div>
       </div>
       <h1 className="text-black dark:text-white text-xl ml-6">Portfolio</h1>
