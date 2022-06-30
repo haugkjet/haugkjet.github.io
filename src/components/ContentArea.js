@@ -17,18 +17,18 @@ function ContentArea() {
         </div>
         <div className="lg:w-1/2 md:w-1/2  lg:h-60 sm:h-48 h-40  flex bg-white dark:bg-slate-800  shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <img
-            className="flex-item  object-contain w-1/3 m-5"
+            className="flex-item  object-contain w-1/4 m-5"
             src="./blender.png"
             alt="Test1"
           ></img>
 
           <img
-            className="flex-item  object-contain w-1/3 m-5"
+            className="flex-item  object-contain w-1/4 m-5"
             src="./Three.js.png"
             alt="Test1"
           ></img>
           <img
-            className="flex-item  object-contain w-1/3 m-5"
+            className="flex-item  object-contain w-1/4 m-5"
             src="./Godot_icon.svg.png"
             alt="Test1"
           ></img>
