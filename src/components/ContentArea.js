@@ -34,7 +34,7 @@ function ContentArea() {
           ></img>
         </div>
       </div>
-      <h1 className="text-black dark:text-white text-xl ml-6">Portfolio</h1>
+      <h1 className="text-black dark:text-white text-xl ml-6">Projects</h1>
       <div className="lg:flex md:flex">
         <div className="flex-row lg:w-1/2 sm:w-screen lg:h-60 sm:h-48 h-40  hover:border-green-500 bg-white dark:bg-slate-800 shadow shadow-cyan-700 dark:shadow-cyan-300 border border-cyan-500 rounded-md m-2">
           <a href="https://haugkjet.github.io/threejs-test/client/">
