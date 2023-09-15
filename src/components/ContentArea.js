@@ -9,8 +9,16 @@ function ContentArea() {
                 About me:
               </h1>
               <h3 className="text-black dark:text-white text-l ml-6">
-                Passionate about developing and bringing 3D content to the web
-                using free and open source software.
+                Passionate about 3D/computer graphics
+                using free and open source software. 
+              </h3>
+              <br></br>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                Linux, Blender, ThreeJS, Godot.
+              </h3>
+              <br></br>
+              <h3 className="text-black dark:text-white text-l ml-6">
+                C++, Javascript
               </h3>
             </li>
           </ul>
